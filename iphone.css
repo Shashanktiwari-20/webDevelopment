@@ -1,0 +1,591 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.gap {
+    height: 2%;
+    width: 100%;
+    background-color: white;
+}
+#navBar1{
+    
+    background-color: gainsboro;
+    height: 7%;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.toph{
+    color: black;
+    font-family: "gilroy";
+    font-weight: 400;
+}
+#navbar2{
+    background-color: rgba(0, 0, 0, 0.749);
+    height: 7%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#second1{
+    color: white;
+    font-size: 15px;
+    font-family: "gilroy";
+    font-weight: 400;
+    text-transform: capitalize;
+}
+#second2{
+    color: royalblue;
+    font-size: 15px;
+    font-family: "gilroy";
+    font-weight: 400;
+    
+}
+#third{
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/iphone-15-pro/a/images/meta/iphone-15-pro_overview__f8jz7aagka2q_og.png);
+    background-size: cover;
+    
+}
+#iphone{
+    position: absolute;
+    transform: translate( -50%, -50%);
+    font-family: "gilroy";
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 60px;
+    left: 50%;
+    top: 23%;
+}
+#iphone1{
+    position: absolute;
+    transform: translate( -50%, -50%);
+    font-family: "gilroy";
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 28px;
+    left: 50%;
+    top: 30%;
+}
+#button1{
+    font-weight: 500;
+    background-color: royalblue;
+    color: white;
+    padding: 8px 24px;
+    position: absolute;
+    transform: translate( -50%, -50%);
+    left: 45%;
+    top: 38%;
+    font-family: "gilroy";
+    font-size: 18px;
+    border: 2px solid royalblue;
+    border-radius: 50px;
+}
+#button2{
+    font-weight: 500;
+    background-color: transparent;
+    color: royalblue;
+    padding: 8px 24px;
+    position: absolute;
+    transform: translate( -50%, -50%);
+    left: 54%;
+    top: 38%;
+    font-family: "gilroy";
+    font-size: 18px;
+    border: 2px solid royalblue;
+    border-radius: 50px;
+}
+#button2:hover {
+    background-color: royalblue;
+    color: aliceblue;
+    
+}
+#four{
+    height: 80%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/bn/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_largetall_2x.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+#fourh{
+    position: absolute;
+    transform: translate( -50%, -50%);
+    font-family: "gilroy";
+    color: black;
+    font-weight: 600;
+    font-size: 60px;
+    left: 50%;
+    top: 105%;
+}
+#fourh1{
+    position: absolute;
+    transform: translate( -50%, -50%);
+    font-family: "gilroy";
+    color: black;
+    font-weight: 400;
+    font-size: 30px;
+    left: 50%;
+    top: 112%;
+}
+#button3{
+    font-weight: 500;
+    background-color: royalblue;
+    color: white;
+    padding: 8px 24px;
+    position: absolute;
+    transform: translate( -50%, -50%);
+    left: 45%;
+    top: 120%;
+    font-family: "gilroy";
+    font-size: 18px;
+    border: 2px solid royalblue;
+    border-radius: 50px;
+}
+#button4{
+    font-weight: 500;
+    background-color: transparent;
+    color: royalblue;
+    padding: 8px 24px;
+    position: absolute;
+    transform: translate( -50%, -50%);
+    left: 54%;
+    top: 120%;
+    font-family: "gilroy";
+    font-size: 18px;
+    border: 2px solid royalblue;
+    border-radius: 50px;
+}
+#button4:hover {
+    background-color: royalblue;
+    color: aliceblue;
+    
+}
+#five{
+    height: 80%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/bn/images/heroes/ipad-pro/hero_ipadpro__bpt7a9d8sh42_largetall_2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#fiveh{
+    position: absolute;
+    transform: translate( -50%, -50%);
+    font-family: "gilroy";
+    color: white;
+    font-weight: 600;
+    font-size: 60px;
+    left: 50%;
+    top: 185%;
+}
+#fiveh1{
+    position: absolute;
+    transform: translate( -50%, -50%);
+    font-family: "gilroy";
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    left: 50%;
+    top: 192%;
+}
+#button5{
+    font-weight: 500;
+    background-color: royalblue;
+    color: white;
+    padding: 8px 24px;
+    position: absolute;
+    transform: translate( -50%, -50%);
+    left: 45%;
+    top: 199%;
+    font-family: "gilroy";
+    font-size: 18px;
+    border: 2px solid royalblue;
+    border-radius: 50px;
+}
+#button6{
+    font-weight: 500;
+    background-color: transparent;
+    color: royalblue;
+    padding: 8px 24px;
+    position: absolute;
+    transform: translate( -50%, -50%);
+    left: 54%;
+    top: 199%;
+    font-family: "gilroy";
+    font-size: 18px;
+    border: 2px solid royalblue;
+    border-radius: 50px;
+}
+#button6:hover {
+    background-color: royalblue;
+    color: aliceblue;
+}
+#ti11{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    padding: 1%;
+}
+#six{
+    
+    height: 100%;
+    width: 50%;
+    background-image: url(https://www.apple.com/v/home/bn/images/promos/wwdc24-announce/promo_wwdc24__poirs216yz2u_medium.jpg);
+    background-size: cover;
+}
+#sixh{
+    position: absolute;
+    transform: translate( -50%, -50%);
+    left: 19%;
+    top: 315%;
+}
+#sixh1{
+    position: absolute;
+    transform: translate( -50%, -50%);
+    font-family: "gilroy";
+    color: white;
+    font-weight: 400;
+    font-size: 35px;
+    left: 26%;
+    top: 315%;
+}
+#sixh2{
+    position: absolute;
+    transform: translate( -50%, -50%);
+    font-family: "gilroy";
+    color: white;
+    font-weight: 500;
+    font-size: 23px;
+    left: 26%;
+    top: 320%;
+}
+#sixh3{
+    position: absolute;
+    transform: translate( -50%, -50%);
+    font-family: "gilroy";
+    color: white;
+    font-weight: 500;
+    font-size: 23px;
+    left: 26%;
+    top: 324%;
+}
+#button7{
+    font-weight: 300;
+    background-color: royalblue;
+    color: white;
+    padding: 5px 15px;
+    position: absolute;
+    transform: translate( -50%, -50%);
+    left: 26%;
+    top: 331%;
+    font-family: "gilroy";
+    font-size: 14px;
+    border: 2px solid royalblue;
+    border-radius: 50px;
+}
+#seven{
+    
+    height: 100%;
+    width: 50%;
+    
+    background-image: url(https://www.apple.com/v/home/bn/images/promos/ipad-air/promo_ipadair__cu1bnxi7uuwm_medium.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+}
+#gap1{
+    height: 100%;
+    width: 1%;
+}
+#sevenh{
+    position: absolute;
+    transform: translate( -50%, -50%);
+    left: 74%;
+    top: 272%;
+}
+#sevenh1{
+    position: absolute;
+    transform: translate( -50%, -50%);
+    text-transform: lowercase;
+    font-family: cursive;
+    font-style: italic;
+    color: royalblue;
+    font-weight: 400;
+    font-size: 45px;
+    left: 77%;
+    top: 270%;
+}
+#sevenh2{
+    position: absolute;
+    transform: translate( -50%, -50%);
+    font-family: "gilroy";
+    color: black;
+    font-weight: 500;
+    font-size: 25px;
+    left: 74%;
+    top: 277%;
+}
+#button8{
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    padding: 6px 15px;
+    position: absolute;
+    transform: translate( -50%, -50%);
+    left: 72%;
+    top: 283%;
+    font-family: "gilroy";
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+#button9{
+    font-weight: 400;
+    background-color: transparent;
+    color: black;
+    padding: 6px 15px;
+    position: absolute;
+    transform: translate( -50%, -50%);
+    left: 79%;
+    top: 283%;
+    font-family: "gilroy";
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+#button9:hover {
+    background-color: black;
+    color: aliceblue;
+}
+#ti12{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    
+}
+#eight{
+    height: 100%;
+    width: 52%;
+    background-image: url(https://www.apple.com/v/home/bn/images/promos/macbook-air-m3/promo_macbook_air_m3__e43jegok3wuq_medium.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+}
+#nine{
+    height: 100%;
+    width: 52%;
+    background-image: url(https://www.apple.com/in/home/promos/apple-watch-ultra-2/images/promo_apple_watch_ultra2_order__dyxqj5ia98om_large.jpg);
+    background-size: 175%;
+    background-position: center;
+    background-position-y: top;
+}
+#eighth{
+    position: absolute;
+    transform: translate( -50%, -50%);
+    font-family: "gilroy";
+    color: black;
+    font-weight: 600;
+    font-size: 42px;
+    left: 24%;
+    top: 354%;
+}
+#eighth1{
+    position: absolute;
+    transform: translate( -50%, -50%);
+    font-family: "gilroy";
+    color: black;
+    font-weight: 500;
+    font-size: 22px;
+    left: 24%;
+    top: 359%;
+}
+#button10{
+    font-weight: 500;
+    background-color: royalblue;
+    color: white;
+    padding: 6px 18px;
+    position: absolute;
+    transform: translate( -50%, -50%);
+    left: 22%;
+    top: 365%;
+    font-family: "gilroy";
+    font-size: 14px;
+    border: 2px solid royalblue;
+    border-radius: 50px;
+}
+#button11{
+    font-weight: 400;
+    background-color: transparent;
+    color: royalblue;
+    padding: 8px 18px;
+    position: absolute;
+    transform: translate( -50%, -50%);
+    left: 29%;
+    top: 365%;
+    font-family: "gilroy";
+    font-size: 15px;
+    border: 1px solid royalblue;
+    border-radius: 50px;
+}
+#button11:hover {
+    background-color: royalblue;
+    color: aliceblue;
+}
+#nineh{
+    position: absolute;
+    transform: translate( -50%, -50%);
+    left: 74%;
+    top: 358%;
+}
+#nineh1{
+    position: absolute;
+    transform: translate( -50%, -50%);
+    font-family: "gilroy";
+    color: black;
+    font-weight: 500;
+    font-size: 22px;
+    left: 74%;
+    top: 364%;
+}
+#button12{
+    font-weight: 500;
+    background-color: royalblue;
+    color: white;
+    padding: 6px 18px;
+    position: absolute;
+    transform: translate( -50%, -50%);
+    left: 72%;
+    top: 370%;
+    font-family: "gilroy";
+    font-size: 14px;
+    border: 2px solid royalblue;
+    border-radius: 50px;
+}
+#button13{
+    font-weight: 400;
+    background-color: transparent;
+    color: royalblue;
+    padding: 8px 18px;
+    position: absolute;
+    transform: translate( -50%, -50%);
+    left: 79%;
+    top: 370%;
+    font-family: "gilroy";
+    font-size: 15px;
+    border: 1px solid royalblue;
+    border-radius: 50px;
+}
+#button13:hover {
+    background-color: royalblue;
+    color: aliceblue;
+}
+#ti13{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    padding: 1%;
+}
+#ten{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://www.apple.com/v/home/bn/images/promos/airpods-pro/promo_airpods_pro_order__d8xv36p4uwae_small_2x.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+#eleven{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://www.apple.com/v/home/bn/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_small_2x.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+#tenh{
+    position: absolute;
+    transform: translate( -50%, -50%);
+    font-family: "gilroy";
+    color: white;
+    font-weight: 600;
+    font-size: 45px;
+    left: 24%;
+    top: 444%;
+}
+#tenh1{
+    position: absolute;
+    transform: translate( -50%, -50%);
+    font-family: "gilroy";
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    left: 24%;
+    top: 450%;
+}
+#button14{
+    font-weight: 500;
+    background-color: royalblue;
+    color: white;
+    padding: 8px 18px;
+    position: absolute;
+    transform: translate( -50%, -50%);
+    left: 22%;
+    top: 457%;
+    font-family: "gilroy";
+    font-size: 14px;
+    border: 2px solid royalblue;
+    border-radius: 50px;
+}
+#button15{
+    font-weight: 400;
+    background-color: transparent;
+    color: royalblue;
+    padding: 8px 18px;
+    position: absolute;
+    transform: translate( -50%, -50%);
+    left: 29%;
+    top: 457%;
+    font-family: "gilroy";
+    font-size: 15px;
+    border: 1px solid royalblue;
+    border-radius: 50px;
+}
+#button15:hover {
+    background-color: royalblue;
+    color: aliceblue;
+}
+#elevenh{
+    position: absolute;
+    transform: translate( -50%, -50%);
+    left: 74%;
+    top: 444%;
+}
+#elevenh1{
+    position: absolute;
+    transform: translate( -50%, -50%);
+    font-family: "gilroy";
+    color: black;
+    font-weight: 500;
+    font-size: 22px;
+    left: 74%;
+    top: 450%;
+}
+#button16{
+    font-weight: 400;
+    background-color: royalblue;
+    color: white;
+    padding: 10px 22px;
+    position: absolute;
+    transform: translate( -50%, -50%);
+    left: 74%;
+    top: 457%;
+    font-family: "gilroy";
+    font-size: 14px;
+    border: 2px solid royalblue;
+    border-radius: 50px;
+}

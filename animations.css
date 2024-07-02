@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#parent{
+    background-color: aqua;
+    color: white;
+    padding: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+h1{
+    display: inline-block;
+    font-size: 50px;
+    font-family: "helvetica";
+    font-weight: 400;
+    margin-right: 20px;
+
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+@keyframes anime {
+    from{ 
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(-100% - 24px));
+    }
+}
